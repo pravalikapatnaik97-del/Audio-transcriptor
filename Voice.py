@@ -1,6 +1,6 @@
 from google import genai
 import streamlit as st
-client = genai.Client(api_key="AIzaSyBb99izrmxBOceFyJtPTsld1_64wBdIkHc")
+client = genai.Client(api_key="API_KEY")
 st.title("VOICE TRANSCRIPTOR")
 file1 = st.file_uploader(
     "Upload an audio/video file to transcript",
@@ -25,6 +25,7 @@ Provide a brief and crisp transcription of the uploaded audio.
         st.write(response.text)
 else:
     st.warning("Please upload a file")
+
 
 
 
