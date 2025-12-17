@@ -1,4 +1,4 @@
-VOICE TRANSCRIPTOR
+AUDIO TRANSCRIPTOR
 A simple and interactive web app to transcribe audio and video files using AI.
 
 Features:
